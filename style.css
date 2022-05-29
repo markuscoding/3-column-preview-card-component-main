@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsla(0, 58%, 91%, 0.842)
+}
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 920px auto;
+    margin: 172px;
+    min-height: 520px;
+}
+.card{
+    width: 300px;
+    height: 480px;
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card-1{
+    width: 300px;
+    height: 480px;
+    background-color: var(--Dark-cyan);
+}
+.card-2{
+    width: 300px;
+    height: 480px;
+    background-color: var(--Very-dark-cyan);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card img, .card-1 img, .card-2 img{
+    margin: 45px 45px;
+    margin-bottom: 10px;
+}
+.card-content{
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.card-content h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 38px;
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+}
+.card-content p{
+    margin-top: 30px;
+    font-size: 15px;
+    width: 200px;
+    font-family:'Lexend Deca', sans-serif;
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card-footer{
+    margin: 70px 45px;
+}
+.card-footer button{
+    padding: 15px 38px 15px 38px;
+    border-radius: 30px;
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-width: 1px;
+    color:var(--Bright-orange);
+    font-size: 15px;
+    font-family:'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+.card-footer button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
