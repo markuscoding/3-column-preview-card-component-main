@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:hsla(0, 58%, 91%, 0.842)
+    background-color: hsl(0, 0%, 95%);
 }
 main{
     display: flex;
