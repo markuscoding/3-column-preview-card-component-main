@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./3-column-preview-card-component-main.png)
+![](./3-column-preview-card-component-main.jpg.png)
 
 ## My process
 
